@@ -359,23 +359,6 @@ article .icon {
 }
 
 /* PROJECTS SECTION */
-.about-containers {
-  display: flex;
-  flex-wrap: wrap; 
-  justify-content: center; 
-}
-
-.details-container.color-container {
-  width: 45%; 
-  margin: 10px; 
-}
-
-/* Adjustments for smaller screens */
-@media screen and (max-width: 768px) {
-  .details-container.color-container {
-    width: 100%; 
-  }
-}
 
 #projects {
   position: relative;
