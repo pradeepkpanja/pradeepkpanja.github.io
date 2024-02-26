@@ -379,12 +379,14 @@ article .icon {
 
 #projects {
   position: relative;
+  margin-bottom: 250px;
   
 }
 
 .color-container {
   border-color: rgb(163, 163, 163);
   background: rgb(250, 250, 250);
+  margin-bottom: 2rem;
 }
 
 .project-img {
@@ -402,6 +404,14 @@ article .icon {
   color: black;
   border-color: rgb(163, 163, 163);
 }
+
+
+.about-containers{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
 
 
 
