@@ -47,6 +47,16 @@
     margin-top: 0;
   }
 }
+@media screen and (orientation: landscape ){
+    .container{
+      display: flex;
+      flex-direction: column;
+    }
+
+    #profile{
+      height: 120vh;
+    }
+}
 
 @media screen and (max-width: 600px) {
   #contact,
