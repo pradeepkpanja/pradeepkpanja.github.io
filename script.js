@@ -6,7 +6,7 @@ function toggleMenu() {
 }
 
 
-let text = ['A Computer Engineer' ,'A Full Stack Developer','An aspiring Learner'];
+let text = ['A Computer Engineer' ,'A Full Stack Developer','An Aspiring Software Developer'];
 let textTodisplay = document.getElementById('textToDisplay');
 let currentLetter = 0;
 let currentText = 0;
