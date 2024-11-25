@@ -4,17 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pradeep Panja</title>
+    <title>Pradeep Panja Profile</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
     <nav id="desktop-nav">
-      
       <div class="logo"><a href="#profile">Pradeep Panja</a></div>
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
+          <li><a href="#project_work">Projects</a></li>
           <li><a href="#experience">Skills</a></li>
           <li><a href="#projects">Experience</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -31,6 +31,7 @@
         </div>
         <div class="menu-links">
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#project_work" onclick="toggleMenu()">Projects</a></li>
           <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Experience</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
@@ -38,427 +39,546 @@
       </div>
     </nav>
     <div class="container">
-    <section id="profile">
-     
-      <div class="section__pic-container">
-        <img src="./assets/first-image.jpg" alt="Pradeep profile picture" class="profilePic" />
-      </div>
-      <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Pradeep Panja</h1>
-        <div class="text"><p class="section__text__p2" id="textToDisplay">A Computer Engineer</p>
-          <div id="cursor"></div></div>
-        
-        <div class="btn-container">
-          <button
-            class="btn btn-color-2"
-            onclick="window.open('./assets/pradeepkpanja_resume_march-2024.pdf')"
-          >
-            Download CV
-          </button>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
-            Contact Info
-          </button>
-        </div>
-        <div id="socials-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="My LinkedIn profile"
-            class="icon"
-            onclick="window.open('https://www.linkedin.com/in/pradeep-panja/', '_blank')" />
-          <img
-            src="./assets/github.png"
-            alt="My Github profile"
-            class="icon"
-            onclick="window.open('https://github.com/pradeepkpanja/', '_blank')"
-          />
-        </div>
-      </div>
-    </section>
-    <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
-      <div class="section-container">
+      <section id="profile">
         <div class="section__pic-container">
           <img
-            src="./assets/second-image.jpg"
-            alt="Profile picture"
-            class="about-pic"
+            src="./assets/first-image.jpg"
+            alt="Pradeep profile picture"
+            class="profilePic"
           />
         </div>
-        <div class="about-details-container">
+        <div class="section__text">
+          <p class="section__text__p1">Hello, I'm</p>
+          <h1 class="title">Pradeep Panja</h1>
+          <div class="text">
+            <p class="section__text__p2" id="textToDisplay">
+              A Computer Engineer
+            </p>
+            <div id="cursor"></div>
+          </div>
+
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2"
+              onclick="window.open('./assets/Pradeep_Panja_Resume.pdf')"
+            >
+              Download CV
+            </button>
+            <button
+              class="btn btn-color-1"
+              onclick="location.href='./#contact'"
+            >
+              Contact Info
+            </button>
+          </div>
+          <div id="socials-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="My LinkedIn profile"
+              class="icon"
+              onclick="window.open('https://www.linkedin.com/in/pradeep-panja/', '_blank')"
+            />
+            <img
+              src="./assets/github.png"
+              alt="My Github profile"
+              class="icon"
+              onclick="window.open('https://github.com/pradeepkpanja/', '_blank')"
+            />
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+          <div class="section__pic-container">
+            <img
+              src="./assets/second-image.jpg"
+              alt="Profile picture"
+              class="about-pic"
+            />
+          </div>
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <img
+                  src="./assets/experience.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <h3>Certifications</h3>
+                <p>
+                  FreeCodeCamp <br />Data Structures and Algorithms using
+                  JavaScript
+                </p>
+              </div>
+              <div class="details-container">
+                <img
+                  src="./assets/education.png"
+                  alt="Education icon"
+                  class="icon"
+                />
+                <h3>Education</h3>
+                <p>
+                  Ontario Graduate Certificate,<br />Diploma In Computer
+                  Engineering
+                </p>
+              </div>
+            </div>
+            <div class="text-container">
+              <p>
+                👨‍💻 Computer Engineer | Full Stack Developer 💻 | Seeking Co-op
+                Internship for May 2024 🎓 | Problem Solver 🧩 | Certified in
+                Data Structures & Algorithms from freeCodeCamp 🏅 | "Don't
+                Stress, Execute" 💪 | Dance Enthusiast 💃 | Traveler 🌍 | Foodie
+                🍜 | Let's Connect! 🤝✨
+              </p>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#experience'"
+        />
+      </section>
+
+      <section id="about">
+        <p class="section__text__p1">Some exciting!</p>
+        <h1 class="title">Projects</h1>
+        <div class="section-container">
+          <div class="section__pic-container">
+            <img
+              src="./assets/second-image.jpg"
+              alt="Profile picture"
+              class="about-pic"
+            />
+          </div>
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <img
+                  src="./assets/experience.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <h3>Certifications</h3>
+                <p>
+                  FreeCodeCamp <br />Data Structures and Algorithms using
+                  JavaScript
+                </p>
+              </div>
+              <div class="details-container">
+                <img
+                  src="./assets/education.png"
+                  alt="Education icon"
+                  class="icon"
+                />
+                <h3>Education</h3>
+                <p>
+                  Ontario Graduate Certificate,<br />Diploma In Computer
+                  Engineering
+                </p>
+              </div>
+            </div>
+            <div class="text-container">
+              <p>
+                👨‍💻 Computer Engineer | Full Stack Developer 💻 | Seeking Co-op
+                Internship for May 2024 🎓 | Problem Solver 🧩 | Certified in
+                Data Structures & Algorithms from freeCodeCamp 🏅 | "Don't
+                Stress, Execute" 💪 | Dance Enthusiast 💃 | Traveler 🌍 | Foodie
+                🍜 | Let's Connect! 🤝✨
+              </p>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#experience'"
+        />
+      </section>
+
+      
+      <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Programming Skills</h1>
+        <div class="experience-details-container">
           <div class="about-containers">
             <div class="details-container">
-              <img
-                src="./assets/experience.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <h3>Certifications</h3>
-              <p>FreeCodeCamp <br />Data Structures and Algorithms using JavaScript</p>
+              <h2 class="experience-sub-title">Frontend</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/html-logo.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>HTML</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/css.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>CSS</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+
+                <article>
+                  <img
+                    src="./assets/js.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>JavaScript</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/react.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>React</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/bootstrap.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Bootstrap</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/jquery.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>JQuery</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+              </div>
             </div>
             <div class="details-container">
-              <img
-                src="./assets/education.png"
-                alt="Education icon"
-                class="icon"
-              />
-              <h3>Education</h3>
-              <p>Ontario Graduate Certificate,<br />Diploma In Computer Engineering</p>
-            </div>
-          </div>
-          <div class="text-container">
-            <p>👨‍💻 Computer Engineer | Full Stack Developer 💻 | Seeking Co-op Internship for May 2024 🎓 | Problem Solver 🧩 | Certified in Data Structures & Algorithms from freeCodeCamp 🏅 | "Don't Stress, Execute" 💪 | Dance Enthusiast 💃 | Traveler 🌍 | Foodie 🍜 | Let's Connect! 🤝✨   </p>
-          </div>
-        </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#experience'"
-      />
-    </section>
-    <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Programming Skills</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <h2 class="experience-sub-title">Frontend </h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./assets/html-logo.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>HTML</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/css.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>CSS</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              
-              <article>
-                <img
-                  src="./assets/js.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>JavaScript</h3>
-                 <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/react.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>React</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/bootstrap.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Bootstrap</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/jquery.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>JQuery</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-            </div>
-          </div>
-          <div class="details-container">
-            <h2 class="experience-sub-title">Backend</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./assets/mongo.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>MongoDB</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/node.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Node JS</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/express.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Express JS</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/git.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Git</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/python.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Python</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/github.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>GitHub</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
+              <h2 class="experience-sub-title">Backend</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/mongo.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>MongoDB</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/node.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Node JS</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/express.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Express JS</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/git.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Git</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/python.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Python</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/github.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>GitHub</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#projects'"
-      />
-    </section>
-    <section id="projects">
-      <p class="section__text__p1">Browse My Canadian</p>
-      <h1 class="title">Work Experience</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#projects'"
+        />
+      </section>
+      <section id="projects">
+        <p class="section__text__p1">Browse My Canadian</p>
+        <h1 class="title">Work Experience</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/lambton.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">
+                Lambton College
+              </h2>
+              <p>Student Ambassador</p>
+              <br />
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://www.lambtoncollege.ca/', '_blank')"
+                >
+                  Website
+                </button>
 
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/lambton.png"
-                alt="Project 1"
-                class="project-img"
-              />
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://www.linkedin.com/in/pradeep-panja/'"
+                >
+                  Duties
+                </button>
+              </div>
             </div>
-            <h2 class="experience-sub-title project-title">Lambton College</h2>
-            <p>Student Ambassador</p><br>
-            <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="window.open('https://www.lambtoncollege.ca/', '_blank')">
-                Website
-            </button>
-            
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://www.linkedin.com/in/pradeep-panja/'"
-              >
-               Duties
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/lambton.png"
-                alt="Project 1"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Lambton College</h2>
-            <p>Student Council Event Head</p><br>
-            <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="window.open('https://www.lambtoncollege.ca/', '_blank')">
-                Website
-            </button>
-            
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://www.linkedin.com/in/pradeep-panja/'"
-              >
-               Duties
-              </button>
-            </div>
-          </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/lambton.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">
+                Lambton College
+              </h2>
+              <p>Student Council Event Head</p>
+              <br />
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://www.lambtoncollege.ca/', '_blank')"
+                >
+                  Website
+                </button>
 
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/logixx.png"
-                alt="Project 1"
-                class="project-img"
-              />
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://www.linkedin.com/in/pradeep-panja/'"
+                >
+                  Duties
+                </button>
+              </div>
             </div>
-            <h2 class="experience-sub-title project-title">Logixx Security</h2>
-            <p>Security Officer</p><br>
-            <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="window.open('https://www.logixxsecurity.com/', '_blank')">
-                Website
-            </button>
-            
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://www.linkedin.com/in/pradeep-panja/'"
-              >
-                Duties
-              </button>
+
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/logixx.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">
+                Logixx Security
+              </h2>
+              <p>Security Officer</p>
+              <br />
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://www.logixxsecurity.com/', '_blank')"
+                >
+                  Website
+                </button>
+
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://www.linkedin.com/in/pradeep-panja/'"
+                >
+                  Duties
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/harbourfront.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">
+                Harbourfront Centre
+              </h2>
+              <p>Customer Service Representative</p>
+              <br />
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://harbourfrontcentre.com/', '_blank')"
+                >
+                  Website
+                </button>
+
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://www.linkedin.com/in/pradeep-panja/','_blank')"
+                >
+                  Duties
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/toronto_blue_jays.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Rogers Centre</h2>
+              <p>Retail Sales Associate</p>
+              <br />
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://www.mlb.com/bluejays/ballpark', '_blank')"
+                >
+                  Website
+                </button>
+
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://www.linkedin.com/in/pradeep-panja/'"
+                >
+                  Duties
+                </button>
+              </div>
+            </div>
+
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/tim-hortons.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Tim Hortons</h2>
+              <p>Crew Member</p>
+              <br />
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://www.timhortons.ca/?lang=en', '_blank')"
+                >
+                  Website
+                </button>
+
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://www.timhortons.ca/?lang=en','_blank')"
+                >
+                  Duties
+                </button>
+              </div>
             </div>
           </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/harbourfront.png"
-                alt="Project 1"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Harbourfront Centre</h2>
-            <p>Customer Service Representative</p><br>
-            <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="window.open('https://harbourfrontcentre.com/', '_blank')">
-                Website
-            </button>
-            
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="window.open('https://www.linkedin.com/in/pradeep-panja/','_blank')"
-              >
-                Duties
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/toronto_blue_jays.png"
-                alt="Project 1"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title"> Rogers Centre</h2>
-            <p>Retail Sales Associate</p><br>
-            <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="window.open('https://www.mlb.com/bluejays/ballpark', '_blank')">
-                Website
-            </button>
-            
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://www.linkedin.com/in/pradeep-panja/'"
-              >
-               Duties
-              </button>
-            </div>
-          </div>
-         
-         
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/tim-hortons.png"
-                alt="Project 1"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Tim Hortons</h2>
-            <p>Crew Member</p><br>
-            <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="window.open('https://www.timhortons.ca/?lang=en', '_blank')">
-                Website
-            </button>
-            
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="window.open('https://www.timhortons.ca/?lang=en','_blank')">
-              
-                Duties
-              </button>
-            </div>
-          </div>
-        
-        
         </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#contact'"
-      />
-    </section>
-    <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
-      <h1 class="title">Contact Me</h1>
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-          <img
-            src="./assets/email.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          />
-          <p><a href="mailto:pradeepkpanja24@gmail.com">pradeepkpanja24@gmail.com</a></p>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#contact'"
+        />
+      </section>
+      <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="./assets/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p>
+              <a href="mailto:pradeepkpanja24@gmail.com"
+                >pradeepkpanja24@gmail.com</a
+              >
+            </p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+              onclick="window.open('https://www.linkedin.com/in/pradeep-panja/', '_blank')"
+              style="cursor: pointer"
+            />
+            <p
+              style="cursor: pointer"
+              onclick="window.open('https://www.linkedin.com/in/pradeep-panja/', '_blank')"
+            >
+              LinkedIn
+            </p>
+          </div>
         </div>
-        <div class="contact-info-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-            onclick="window.open('https://www.linkedin.com/in/pradeep-panja/', '_blank')"
-            style="cursor: pointer;"
-          />
-          <p  style="cursor: pointer;" onclick="window.open('https://www.linkedin.com/in/pradeep-panja/', '_blank')">LinkedIn</p>
-        </div>
-      </div>
-    </section>
-  </div>
+      </section>
+    </div>
     <footer>
       <nav>
         <div class="nav-links-container">
@@ -474,5 +594,4 @@
     </footer>
     <script src="script.js"></script>
   </body>
-  
 </html>
